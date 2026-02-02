@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../config/db'); // Import PostgreSQL config
+const db = require('../config/db'); // Import PostgreSQsL config
 
 // Create - Ajouter un chauffeur
 router.post('/', async (req, res) => {
